@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FirstSceneController">
+   <children>
+      <Button layoutX="262.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleNextSceneButton" text="Add Movie" />
+      <Button layoutX="257.0" layoutY="57.0" mnemonicParsing="false" onAction="#handleDeleteButton" text="Delete Movie" />
+      <Button layoutX="253.0" layoutY="98.0" mnemonicParsing="false" text="Update Movie" />
+      <Button layoutX="249.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleSearchButton" text="Search Movie" />
+      <Button layoutX="241.0" layoutY="279.0" mnemonicParsing="false" text="Sort By User Rating" />
+      <Button layoutX="236.0" layoutY="319.0" mnemonicParsing="false" text="Sort By Tape Number" />
+      <Button layoutX="251.0" layoutY="365.0" mnemonicParsing="false" text="Give Comments" />
+      <Button layoutX="260.0" layoutY="404.0" mnemonicParsing="false" text="Give Rating" />
+      <Button layoutX="517.0" layoutY="430.0" mnemonicParsing="false" text="Exit" />
+   </children>
+</AnchorPane>
