@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addMovie.AddMovieController">
+   <children>
+      <Button fx:id="backButton" layoutX="612.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBackButton" text="&lt;" />
+      <TextField fx:id="movieNameField" layoutX="60.0" layoutY="45.0" promptText="Enter Movie Name" />
+      <TextField fx:id="directorNameField" layoutX="60.0" layoutY="85.0" promptText="Enter Director Name" />
+      <TextField fx:id="genreField" layoutX="60.0" layoutY="125.0" promptText="Enter Genre" />
+      <TextField fx:id="yearField" layoutX="60.0" layoutY="165.0" promptText="Enter Year" />
+      <TextField fx:id="sourceField" layoutX="60.0" layoutY="205.0" promptText="Enter Source" />
+      <TextField fx:id="tapeNumberField" layoutX="60.0" layoutY="245.0" promptText="Enter Tape Number" />
+      <TextField fx:id="ratingField" layoutX="60.0" layoutY="285.0" promptText="Enter Rating" />
+      <Button layoutX="240.0" layoutY="345.0" mnemonicParsing="false" onAction="#handleSubmitButton" prefHeight="39.0" prefWidth="222.0" text="Submit" />
+      <Button layoutX="651.0" layoutY="14.0" mnemonicParsing="false" text="X" />
+   </children>
+</AnchorPane>
